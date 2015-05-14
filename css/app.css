@@ -1,0 +1,62 @@
+ #myChartContainer {
+     float: left;
+     width: 100%;
+	 width: 800px; 
+	 height: 500px; 
+ }
+ #xAxis {
+     width: 90%;
+     height: 10%;
+     float: left;
+ }
+ #yAxis {
+     height: 90%;
+     float: left;
+ }
+ .units {
+     height: 9.8%;
+     text-align: right;
+     border-top: 1px solid;
+ }
+ #tableSection {
+     width: 90%;
+     height: 90.4%;
+     float: left;
+     border: 1px solid black;
+     box-sizing: border-box;
+	 border-right: 1px solid transparent;
+	 border-top: 1px solid transparent;
+ }
+ #legendXAxis{
+	font-size:30px;
+	float: left;
+	width: 100%;
+	margin-left: 45%;
+ }
+ #legendYAxis{
+	font-size:30px;
+	float: left;
+	width:10%;
+	margin-top: 15%;
+	-ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+ }
+ .fill {
+     background-color: lightblue;
+     box-shadow: 0 0 0 1px;
+ }
+ .noFil {
+     background-color: white;
+ }
+ .tableRow {
+     display: table-row;
+     float: left;
+     width: 100%;
+     height: 100%;
+ }
+ .tableColumn {
+     display: table-cell;
+     float: left;
+	 padding-right:1%;
+ }
