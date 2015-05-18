@@ -42,7 +42,7 @@ generateGraph.prototype.drawGraph = function() {
     }
     childHtml += '</div></div>';
     $('#tableSection').append(childHtml);
-	$('.tableColumn').css('width',(widthForBars-1)+'%');
+	$('.tableColumn').css('width',(widthForBars-2)+'%');
 };
 generateGraph.prototype.createXAxisForGraph = function() {
     var xAxis = '<div class="xAxis">';
